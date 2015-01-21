@@ -20,9 +20,7 @@ html {
   height: 100%;
   background-color: #e1e1e1;
 }
-
 #sidebar a { color: #ffffff; }
-
 #sidebar a:hover,
 #sidebar a:focus,
 #sidebar a:active { color: #919191; }
@@ -33,10 +31,11 @@ html {
   padding-right: 0;
 }
 .sidebar-min li a i { padding: 0; }
-.sidebar-exp {
-  width: 240px;
-}
+.sidebar-min .sidebar-toggle-position { text-align: center; }
+
+.sidebar-exp { width: 240px; }
 .sidebar-exp a i { margin-right: 10px; }
+.sidebar-exp .sidebar-toggle-position { text-align: right; }
 
 @media(min-width: 769px) {
   #sidebar-min,
